@@ -1,0 +1,91 @@
+.contenedor-padre {
+    display: flex;
+   
+   
+
+    
+}
+
+
+.contenedor1, .contenedor2, .contenedor3 {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+
+
+
+.caja {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    
+}
+
+
+.contenedor1 {
+    background-color: aqua;
+    padding: 10px;
+    width: 420px; 
+   
+    
+}
+
+.caja1, .caja2 {
+    background-color: red;
+    width: 150px;
+    height: 250px;
+    flex-grow: 1;
+   
+    
+}
+
+.caja3, .caja4 {
+    background-color: red;
+    width: 150px;
+    height: 250px;
+    flex-grow: 1;
+    
+}
+
+
+.contenedor2 {
+    background-color: gray;
+    padding: 10px;
+    width: 420px; 
+    
+}
+
+.caja5, .caja6, .caja7, .caja8, .caja9, .caja10, .caja11, .caja12, .caja13 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+}
+
+
+.contenedor3 {
+    background-color: blue;
+    padding: 10px;
+    width: 420px;
+    
+}
+
+
+.caja14, .caja17 {
+    background-color: yellow;
+    width: 300px;
+    height: 50px;
+    flex-grow: 1;
+}
+
+.caja15, .caja16, .caja18, .caja19, .caja20 {
+    background-color: yellow;
+    width: 125px;
+    height: 180px;
+    flex-grow: 1;
+}
